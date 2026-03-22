@@ -196,7 +196,7 @@
   overflow: hidden;
   transition: 0.5s;
   opacity: 0.8;
-  animation: whatBorders 1.2s 1 forwards;
+  /* animation: whatBorders 1.2s 1 forwards; */
 }
 .what-border2 svg {
   height: 500px;

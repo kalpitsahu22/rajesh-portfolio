@@ -5,34 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "The Wild Oasis",
+    category: "Hotel Management Platform",
+    tools: "React, Tailwind, Supabase",
+    image:
+      "https://kalpit-portfolio.netlify.app/static/media/oasis.c0c6ecf2f4a6359625db.png",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "WorldWise",
+    category: "Real Time City Navigation Platform",
+    tools: "React.js, Redux",
+    image:
+      "https://kalpit-portfolio.netlify.app/static/media/worldwise.6d6c689a6a71ccfb41c3.png",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "Popcorn Time",
+    category: "Movie Rating Application",
+    tools: "React.js",
+    image:
+      "https://kalpit-portfolio.netlify.app/static/media/popcorn.709fb7f98e9bada3e524.png",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "MoviePedia",
+    category: "IMDb Platform",
+    tools: "React.js",
+    image:
+      "https://kalpit-portfolio.netlify.app/static/media/moviepedia.d79378510c0716bb469c.png",
   },
 ];
 
@@ -105,9 +103,7 @@ const Work = () => {
                       </div>
                       <div className="carousel-details">
                         <h4>{project.title}</h4>
-                        <p className="carousel-category">
-                          {project.category}
-                        </p>
+                        <p className="carousel-category">{project.category}</p>
                         <div className="carousel-tools">
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
@@ -128,8 +124,9 @@ const Work = () => {
             {projects.map((_, index) => (
               <button
                 key={index}
-                className={`carousel-dot ${index === currentIndex ? "carousel-dot-active" : ""
-                  }`}
+                className={`carousel-dot ${
+                  index === currentIndex ? "carousel-dot-active" : ""
+                }`}
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to project ${index + 1}`}
                 data-cursor="disable"

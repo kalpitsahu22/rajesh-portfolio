@@ -15,43 +15,46 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Frontend Developer</h4>
+                <h5>ASTNT Technologies</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2023</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Built and optimized data-heavy dashboard interfaces, improving
+              performance and reducing load times by 30% through efficient
+              rendering, lazy loading, and smart caching. Collaborated closely
+              with backend teams to deliver scalable, reliable UI components.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>SDE-1 Frontend</h4>
+                <h5>MiM Essay, Kraya.ai</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Developed a full-featured CMS dashboard using Next.js, along with
+              automation tools like a WhatsApp extension, focusing on scalable
+              architecture, reusable components, and seamless user experience
+              across devices.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Frontend Developer</h4>
+                <h5>Optiphoenix Xperts</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Delivered data-driven frontend solutions with a strong focus on
+              A/B testing, experimentation, and growth optimization, achieving
+              up to 45% improvement in user outcomes through performance
+              enhancements and user behavior insights.
             </p>
           </div>
         </div>
